@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(41, 41, 41);
+}
+.grid1{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 40px;
+
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.thumbnail-area{
+    background-color: lightseagreen;
+    width: 300px;
+    height: 200px;
+}
+
+.thumbnail-dimension{
+    width: 300px;
+    height: 200px;
+}
+
+.profile-area{
+    background-color: lightcoral;
+    width: 50px;
+    height: 100px;
+}
+
+.profile-dimension{
+    margin-top: 10px;
+    width: 40px;
+    border-radius: 50px;
+}
+
+.stats-area{
+    background-color: lightcyan;
+    width: 250px;
+    height: 100px;
+}
+
+p{
+    margin-top: 5px;
+    font-size: 14px;
+}
