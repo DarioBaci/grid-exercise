@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+        <head>
+
+            <title>TEST</title>
+
+            <link rel="stylesheet" href="ikd1.css">
+
+            <style>
+
+                .grid1{
+                    display: grid;
+                    grid-template-columns: 200px 75px;
+
+                }
+
+                .z1{
+                    background-color: lightgreen;
+                    
+                }
+
+                .z2{
+                    background-color: lightblue;
+                    
+                }
+
+                .grid2{
+                    margin-top: 10px;
+                    display: grid;
+                    grid-template-columns: 50px 1fr 50px;
+                }
+
+                .x1 , .x3{
+                    background-color: lightsalmon;
+                }
+
+                .x2{
+                    background-color: lightseagreen;
+                }
+
+                .grid3{
+                    margin-top: 10px;
+                    display: grid;
+                    grid-template-columns: 100px 100px 100px 100px;
+                    column-gap: 20px;
+                    row-gap: 20px;
+                }
+
+                .c1 , .c2 , .c3 , .c4{
+                    background-color: lightcoral;
+
+                }
+
+            
+            </style>
+
+        </head>
+
+        <body>
+            <div class="grid1">
+
+                <div class="z1">200px</div>
+
+                <div class="z2">75px</div>
+
+            </div>
+
+            <div class="grid2">
+
+                <div class="x1">col1</div>
+                <div class="x2">col2</div>
+                <div class="x3">col3</div>
+
+            </div>
+
+            <div class="grid3">
+
+                <div class="c1">col1</div>
+                <div class="c2">col2</div>
+                <div class="c3">col3</div>
+                <div class="c4">col4</div>
+
+                <div class="c1">col1</div>
+                <div class="c2">col2</div>
+                <div class="c3">col3</div>
+                <div class="c4">col4</div>
+
+            </div>
+        </body>
+
+</html>
