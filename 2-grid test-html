@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+        <head>
+
+            <title>
+                grid test
+            </title>
+            
+        </head>
+
+        <body>
+
+            <div class="main">
+                
+                <div class="sq1">div 1 text and call</div>
+
+                <div class="sq2">div 2</div>
+
+                <div class="sq3">div 3</div>
+                
+                <div class="sq2">div 1</div>
+
+                <div class="sq3">div 2</div>
+
+                <div class="sq1">div 3</div>
+
+            </div>
+
+            <div class="grid">
+
+                <div class="zb1">div1 text and call</div>
+
+                <div class="zb2">div2</div>
+
+            </div>
+
+            <div style="margin-top: 20px; width: 400px; display: grid; grid-template-columns: 100px 100px 200px;">
+
+                <div style="background-color: lightcoral;">100px</div>
+                <div style="background-color: lightgreen;">100px</div>
+                <div style="background-color: lightgray;">200px</div>
+                <div style="background-color: lightseagreen;">100px</div>
+
+            </div>
+
+        <div style="display: grid; grid-template-columns: 100px 1fr 1fr; margin-top: 20px; width: 500px;">
+
+            <div style="background-color: lightcoral;">100px</div>
+            <div style="background-color:lightgreen;">1fr</div>
+            <div style="background-color: lightskyblue;">1fr</div>
+
+        </div>
+
+        <div style="display: grid; grid-template-columns: 100px 1fr 2fr; margin-top: 20px; width: 500px;">
+
+            <div style="background-color: lightcoral;">100px</div>
+            <div style="background-color:lightgreen;">1fr</div>
+            <div style="background-color: lightskyblue;">2fr</div>
+
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; margin-top: 20px; width: 200px; column-gap: 20px; row-gap: 40px;">
+
+            <div style="background-color: lightcoral; width: 300px; height: 100px;" >100px</div>
+            <div style="background-color:lightgreen; width: 300px; height: 100px;">1fr</div>
+            <div style="background-color: lightskyblue; width: 300px; height: 100px;">1fr</div>
+
+            <div style="background-color: lightcoral; width: 300px; height: 100px;" >100px</div>
+            <div style="background-color:lightgreen; width: 300px; height: 100px;">1fr</div>
+            <div style="background-color: lightskyblue; width: 300px; height: 100px;">1fr</div>
+
+        </div>
+
+        </body>
+
+</html>
